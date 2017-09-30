@@ -1,0 +1,9 @@
+{
+    "esversion": 6,
+    "freeze": true,
+    "latedef": true,
+    "nonbsp": true,
+    "shadow": "outer",
+    "trailingcomma": false,
+    "unused": true
+}
