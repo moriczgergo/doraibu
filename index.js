@@ -25,3 +25,7 @@ client.on('message', function(message) {
 });
 
 client.login(config.token); // Log in with token specified in config
+
+process.on('exit', function() { // On ^C or SIG*
+    client.destroy(); // Signal Discord that the bot/shard is going to shut down
+});
