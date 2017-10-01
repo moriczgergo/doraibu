@@ -23,3 +23,7 @@ Fetch osu! user info.
 ### d!ping
 
 Ping-pong.
+
+### d!stats
+
+Get bot stats.

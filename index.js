@@ -19,7 +19,7 @@ client.on('message', function(message) {
     if (message.content.startsWith(prefix)) { // If the message starts with the doraibu prefix
         var command = commands.find(o => o.name == message.content.trim().split(' ')[0]); // Find the command that the user ran
         if (command && message.content.match(command.regex)) { // If the command exists and the required arguments exist
-            command.method(message, command); // Run command method
+            command.method(message, command, client); // Run command method
         }
     }
 });
