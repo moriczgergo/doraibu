@@ -19,6 +19,7 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "discord.js": "github:hydrabolt/discord.js",
+    "erlpack": "github:hammerandchisel/erlpack",
     "he": "^1.1.1",
     "osu": "^1.1.2",
     "popura": "^1.2.5",
